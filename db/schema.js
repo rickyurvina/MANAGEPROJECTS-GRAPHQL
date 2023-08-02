@@ -10,6 +10,7 @@ const typeDefs = gql`
     type Project {
         name: String
         id: ID
+        created: String
     }
 
     type Task {

@@ -11,6 +11,7 @@ const UsersSchema = new mongoose.Schema({
         required: true,
         trim: true,
         unique: true, // No se puede repetir
+        lowercase: true, // Convierte el texto a minusculas
     },
     password: {
         type: String,
